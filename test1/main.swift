@@ -132,8 +132,8 @@ func avg (nums: Int...) -> Double{
     
     for sayi in nums {
         
-        toplam = toplam + sayi
-        adet = adet + 1
+        toplam += sayi
+        adet += 1
     
     }
     
