@@ -9,4 +9,7 @@
 import Foundation
 
 print("Hello, nature!")
-
+var i = 0
+for i=0 ; i < 5 ; ++i {
+    print (i)
+}
